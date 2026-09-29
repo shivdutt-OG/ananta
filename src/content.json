@@ -1,0 +1,40 @@
+{
+  "version": 0,
+  "site": {
+    "title": "Ananta 2026",
+    "description": "Placeholder description"
+  },
+  "nav": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Events", "href": "#events" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "badge": "Placeholder badge",
+    "title": "Placeholder heading",
+    "subtitle": "Placeholder subheading",
+    "primaryCta": { "text": "Explore events", "url": "#events" },
+    "secondaryCta": { "text": "Contact us", "url": "#contact" }
+  },
+  "events": {
+    "heading": "Events",
+    "emptyText": "Events will be announced soon.",
+    "items": [
+      {
+        "id": "1",
+        "name": "Sample event",
+        "category": "Technical",
+        "description": "Sample description",
+        "date": "TBA",
+        "time": "TBA",
+        "venue": "TBA",
+        "registerUrl": "#"
+      }
+    ]
+  },
+  "footer": {
+    "heading": "Contact",
+    "email": "team@example.com",
+    "copyright": "Placeholder copyright text"
+  }
+}
