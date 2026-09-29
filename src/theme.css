@@ -1,0 +1,17 @@
+:root {
+  --ink: #0b0908;
+  --ink-2: #14100e;
+  --ink-3: #1d1714;
+  --paper: #eadfc8;
+  --paper-dim: #b9ad96;
+  --vermilion: #c4282d;
+  --vermilion-bright: #e0383d;
+  --gold: #b98b2e;
+
+  --font-display: "Shippori Mincho", "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --line: 1px solid rgba(234, 223, 200, 0.14);
+  --max-width: 1100px;
+  --section-space: 72px;
+}

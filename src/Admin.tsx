@@ -144,6 +144,7 @@ function Panel({ sb }: { sb: SupabaseClient }) {
 
       <h2>Hero</h2>
       <Field label="Badge" value={c.hero?.badge} onChange={(v) => set(['hero', 'badge'], v)} />
+      <Field label="Background glyph" value={c.hero?.glyph} onChange={(v) => set(['hero', 'glyph'], v)} />
       <Field label="Heading" value={c.hero?.title} onChange={(v) => set(['hero', 'title'], v)} />
       <Field label="Subheading" long value={c.hero?.subtitle} onChange={(v) => set(['hero', 'subtitle'], v)} />
       <Field label="Primary button text" value={c.hero?.primaryCta?.text} onChange={(v) => set(['hero', 'primaryCta', 'text'], v)} />

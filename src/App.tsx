@@ -1,4 +1,5 @@
 import raw from './content.json'
+import './theme.css'
 import './index.css'
 
 type Cta = { text: string; url: string }
@@ -8,7 +9,7 @@ type EventItem = {
 }
 type Content = {
   nav?: { label: string; href: string }[]
-  hero?: { badge: string; title: string; subtitle: string; primaryCta: Cta; secondaryCta: Cta }
+  hero?: { badge: string; glyph?: string; title: string; subtitle: string; primaryCta: Cta; secondaryCta: Cta }
   events?: { heading: string; emptyText: string; items: EventItem[] }
   footer?: { heading: string; email: string; copyright: string }
 }
@@ -31,6 +32,7 @@ export default function App() {
       <main>
         {hero && (
           <section id="home" className="hero">
+            {hero.glyph && <span className="glyph" aria-hidden="true">{hero.glyph}</span>}
             <span className="badge">{hero.badge}</span>
             <h1>{hero.title}</h1>
             <p>{hero.subtitle}</p>
